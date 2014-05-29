@@ -2,6 +2,8 @@
 
 	npm install -g docpad
 
+Be sure to use the stable version of Node.js.
+
 # Making a document
 
 DocPad supports asset pipelining so that you can make your document with any formats you like.
