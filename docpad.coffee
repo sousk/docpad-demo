@@ -1,5 +1,7 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
+
+repoName = "docpad-demo"
 docpadConfig = {
 
 	# =================================
@@ -12,7 +14,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://sousk.github.io/docpad-demo"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -34,23 +36,23 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "@sou"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "sou.phphp@gmail.com"
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"/"+ repoName + "/styles/twitter-bootstrap.css"
+				"/"+ repoName + "/styles/style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"
+				"/"+ repoName + "/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"/"+ repoName + "/scripts/script.js"
 			]
 
 
